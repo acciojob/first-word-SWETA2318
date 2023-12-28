@@ -13,7 +13,7 @@ function firstWord(s) {
 }
 
 // Prompt the user to enter a string
-const userInput = prompt("Enter String:");
+const userInput = window.prompt("Enter String:");
 
 // Call the firstWord function with user input and display the result
 alert(firstWord(userInput));
